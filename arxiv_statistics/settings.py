@@ -118,7 +118,7 @@ LOGGING = {
             'level': 'ERROR',
             'propagate': True,
         },
-        'myapp':{
+        'arxiv_feed_import':{
             'handlers': ['console', 'mail_admins'],
             'level': 'DEBUG',
        },
