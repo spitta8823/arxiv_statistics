@@ -36,7 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'arxiv_feed_import'
+    'apps.arxiv_feed_import'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -49,9 +49,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'arxiv_statistics.urls'
+ROOT_URLCONF = 'core.urls'
 
-WSGI_APPLICATION = 'arxiv_statistics.wsgi.application'
+WSGI_APPLICATION = 'core.wsgi.application'
 
 
 # Database
