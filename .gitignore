@@ -17,3 +17,6 @@ out/
 
 # byte code
 *.pyc
+
+# local setting
+local_settings.py
