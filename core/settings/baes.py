@@ -11,13 +11,13 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 # Application definition
 
 INSTALLED_APPS = (
-    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.arxiv_feed_import'
+    'apps.arxiv_feed_import',
+    'db'
 )
 
 MIDDLEWARE_CLASSES = (

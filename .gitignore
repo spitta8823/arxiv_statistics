@@ -19,4 +19,4 @@ out/
 *.pyc
 
 # local setting
-local_settings.py
+#local_settings.py
